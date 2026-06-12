@@ -60,4 +60,4 @@ After admin setup, store per-project API keys in **JP Tolgee** as separate items
 
 Ensure Entra admin consent for app registration **JP Tolgee** after `stacks/azure/entra/tolgee/` applies. Redirect URI must include:
 
-`https://tolgee.joshuaproject.net/login/oauth2/code/oauth2`
+`https://tolgee.joshuaproject.net/login/auth_callback/oauth2`
