@@ -1,0 +1,16 @@
+{
+  "projectId": "<from Tolgee after project creation>",
+  "apiUrl": "https://tolgee.joshuaproject.net",
+  "format": "JSON_ICU",
+  "delimiter": ".",
+  "push": {
+    "filesTemplate": "./messages/{namespace}/{languageTag}.json",
+    "forceMode": "OVERRIDE",
+    "languages": ["en"]
+  },
+  "pull": {
+    "path": "./messages",
+    "fileStructureTemplate": "{namespace}/{languageTag}.{extension}",
+    "states": ["TRANSLATED", "REVIEWED"]
+  }
+}
