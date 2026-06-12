@@ -53,7 +53,7 @@ Document this in project settings and train reviewers.
 
 Redirect URI (must match Entra registration):
 
-`https://tolgee.joshuaproject.net/login/oauth2/code/oauth2`
+`https://tolgee.joshuaproject.net/login/auth_callback/oauth2`
 
 ## 7. Create placeholder Tolgee projects
 
